@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{ 
+    background-color: #cacaca;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+
+}   
+
+.item {
+    background-color: #ff0037;
+    color:#fff;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+    flex: auto;
+}
+.items-3 {
+   /* height: 150px;*/
+}
+.items-4 {
+    align-self: center;
+    flex: 10%;
+}
+
+.items-5 {
+    flex: 25%;
+}

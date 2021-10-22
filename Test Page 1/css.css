@@ -1,0 +1,49 @@
+<style>
+
+div{ 
+width: 100%;
+padding: 5px;
+ border: 5px;
+ margin: 0px;
+} 
+
+
+.leftside,.rightside {
+   float:Left;
+   width: 46%;
+  padding: 1%;
+  margin: 1%;
+     
+  
+}
+
+.leftside {
+    background:white;
+}
+
+
+.rightside{
+  background:white;
+}
+</style>
+
+<style>
+Table {
+  border-collapse: collapse;
+  width:100% ; 
+}
+th,td {
+    text-alingn: left;
+    padding:1%;
+    width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray
+}
+img {
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 15px;
+</style>
